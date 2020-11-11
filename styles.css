@@ -9,7 +9,40 @@ header img {
     height: auto;
     padding-top: 5%;
     padding-bottom: 5%;
-    padding-left: 15%;
+    padding-left: 40%;
+    
 
 }
 
+nav {
+    width: 1000px;
+    height: 50px;
+    display:flex;
+    justify-content: flex-end;
+    margin:0px;
+    padding-right: 10%;
+    
+    
+
+}
+div {
+    display:flex;
+    align-content: center;
+}
+nav button {
+    background-color: transparent;
+    border: none;
+    color:white;
+    padding:2%;
+    font-family:'Poppins', sans-serif;
+    font-weight: 700;
+}
+nav button:hover {
+    color: #4abc96;
+}
+hr{
+    
+    margin-left: 0%;
+    margin-right:0%;
+}
+    
