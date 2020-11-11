@@ -14,7 +14,7 @@ header img {
     height: auto;
     padding-top: 5%;
     padding-bottom: 5%;
-    padding-left: 40%;
+    padding-left: 35%;
 }
 nav {
     width: 1000px;
@@ -84,7 +84,8 @@ main button {
 }
 
 main div {
-    padding: 0%;
+    padding-left: 0%;
+    padding-top: 7%;
 }
 
 main div img {
