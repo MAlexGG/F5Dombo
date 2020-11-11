@@ -4,6 +4,11 @@
 body {
     background-color: #0e0d1f;
 }
+div {
+    display: flex;
+    align-content: center;
+}
+
 header img { 
     width: 250px;
     height: auto;
@@ -11,15 +16,14 @@ header img {
     padding-bottom: 5%;
     padding-left: 40%;
 }
-
-
 nav {
     width: 1000px;
     height: 50px;
-    display:flex;
+    display: flex;
     justify-content: flex-end;
-    margin:0px;
+    margin: 5px;
     padding-right: 10%;
+
 }
 
 nav button {
