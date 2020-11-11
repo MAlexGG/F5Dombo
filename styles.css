@@ -84,9 +84,13 @@ main button {
 }
 
 main div {
-    padding: 5%;
-
+    padding: 0%;
 }
+
+main div img {
+    padding: 0px;
+}
+
 .click {
     display: none;
 }
