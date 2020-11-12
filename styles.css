@@ -16,7 +16,7 @@ header img {
     padding-bottom: 5%;
     padding-left: 35%;
 }
-nav {
+.nav_escritorio {
     width: 1000px;
     height: 50px;
     display: flex;
@@ -25,7 +25,7 @@ nav {
     padding-right: 10%;
 }
 
-nav button {
+.nav_escritorio button {
     background-color: transparent;
     border: none;
     color:white;
@@ -34,8 +34,12 @@ nav button {
     font-weight: 700;
 }
 
-nav button:hover {
+.nav_escritorio button:hover {
     color: #4abc96;
+}
+
+.boton_movil {
+    display: none;
 }
 
 hr{
@@ -144,3 +148,17 @@ footer button {
     font-size: 15px; 
 }
 
+@media screen and (max-width: 360px) {
+    
+    .nav_escritorio {
+        display: none;
+    }
+
+    .boton_movil {
+        background-color: #67bf72;
+        width: 100px;
+        height: 50px;
+        display: flex;
+    }
+
+}
