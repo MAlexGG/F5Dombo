@@ -4,19 +4,21 @@
 body {
     background-color: #0e0d1f;
 }
-div {
+header {
     display: flex;
     align-content: center;
+  
 }
 
+
 header img { 
-    width: 250px;
+    width: 100%;
     height: auto;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 35%;
 }
-nav div {
+.nav_escritorio {
     width: 1000px;
     height: 50px;
     display: flex;
@@ -25,7 +27,7 @@ nav div {
     padding-right: 10%;
 }
 
-nav div button {
+.nav_escritorio button {
     background-color: transparent;
     border: none;
     color:white;
@@ -34,11 +36,16 @@ nav div button {
     font-weight: 700;
 }
 
-nav div button:hover {
+.nav_escritorio button:hover {
     color: #4abc96;
 }
-.mobil {
+.movil {
     display: none;
+}
+
+.boton_movil {
+    display: none;
+    
 }
 
 hr{
@@ -147,19 +154,38 @@ footer button {
     font-size: 15px; 
 }
 
-@media screen and (max-width: 360px) {
-nav div {
-    display: none;
-}
-.mobil {
-    display: flex;
-    height: 40px;
-    width: 150px;
-    background-color: #67bf72;
-    border-radius: 20px;
-    border: 3px;
-    background-color:red;
+@media only screen and (max-width: 360px) {
+    
+    .nav_escritorio {
+        display: none;
+    }
+    header {
+        width: 775px;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+      
+    }
+
+    header img {
+        width: 50%;
+        height: auto;
+    }
+    .nav_movil{
+        display: flex;
+        align-self:flex-end;  
+        padding: 0%;
+        margin: 0%;
+        background-color: tomato;
+       
+    }
+    .boton_movil {
+        background-color: #67bf72;
+        width: 100px;
+        height: 50px;
+        display: flex;
+        border: none;
+      
+    }
 
 
-}
 }
