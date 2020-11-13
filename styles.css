@@ -10,13 +10,12 @@ header {
   
 }
 
-
 header img { 
     width: 15%;
     height: auto;
     padding-top: 2.5%;
     padding-bottom: 5%;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 .nav_escritorio {
     width: 800px;
@@ -57,24 +56,28 @@ hr{
 
 main {
     display: flex;
-    
+    flex-direction: row;
+    justify-content: space-between;  
+
 }
+
 .box {
     display: flex;
     flex-direction: column; 
-    padding-left: 10%;
+    padding-left: 5%;
     line-height: 45px;
-    width: 21%;
-
-
+    width: 30%;
+    margin-top: 1%;
 }
+
 h1 {
     color: white;
     font-family:'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 45px;
+    font-size: 50px;
     line-height: 1.2; 
     margin-bottom: 0%;  
+    letter-spacing: 0.1px;
 }
 
 p {
@@ -85,9 +88,8 @@ p {
     margin-top: 0%; 
     padding-top: 5%;
     padding-bottom: 3%;
-    
-
 } 
+
 main button {
     height: 40px;
     width: 150px;
@@ -102,11 +104,14 @@ main button {
 
 main div {
     padding-left: 0%;
-    padding-top: 7%;
+    padding-top: 4%;
 }
 
 main div img {
     padding: 0px;
+    width: 90%;
+    height: auto;
+    
 }
 
 .click {
@@ -118,15 +123,15 @@ footer {
     flex-direction: column;
     align-items: center;
     margin-top: 3%;
-    margin-right: 22%;
-    
+    margin-bottom: 3%;
+       
 }
 
 h2 {
     color: white;
     font-family:'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1.2; 
     margin-bottom: 0%; 
 }
@@ -160,32 +165,31 @@ footer button {
     .nav_escritorio {
         display: none;
     }
+    
     header {
         width: 775px;
         justify-content: space-between;
         flex-direction: column-reverse;
-      
     }
 
     header img {
         width: 50%;
         height: auto;
     }
+
     .nav_movil{
         display: flex;
         align-self:flex-end;  
         padding: 0%;
-        margin: 0%;
-        background-color: tomato;
-       
+        margin: 0%; 
     }
+
     .boton_movil {
         background-color: #67bf72;
         width: 100px;
         height: 50px;
         display: flex;
         border: none;
-      
     }
 
 
