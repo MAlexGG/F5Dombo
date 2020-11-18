@@ -111,8 +111,60 @@ main div img {
     padding: 0px;
     width: 90%;
     height: auto;
+    position: relative;
     
 }
+.posicionbotones{
+ position: absolute;
+ background-color: purple;
+}
+
+.button-pad{
+    background-color:pink;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+   
+
+}
+
+#kick{
+    position: relative;
+    top:24vh;
+    left:39vh;
+    
+    
+   
+}
+#tom{
+    position: relative;
+}
+#ride{
+    position: relative;
+
+}
+#charles{
+    position: relative;
+    top:24vh;
+    left:83vh;
+}
+#cowbell{
+    position: relative;
+    top:20vh;
+    left:60vh;
+}
+#rimshot{
+    position: relative;
+}
+#snare{
+    position: relative;
+}
+#weird{
+    position: relative;
+}
+
+
+
 
 .click {
     display: none;
