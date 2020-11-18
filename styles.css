@@ -144,7 +144,7 @@ p {
     padding: 1%;
 } 
 
-footer img {
+.botonhit {
     display: none;
 }
 
@@ -160,7 +160,7 @@ footer button {
     font-size: 15px; 
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 570px) {
     
     .nav_escritorio {
         display: none;
@@ -194,13 +194,24 @@ footer button {
         display: flex;
         border: none;
         border-radius:20px;
+        align-items:center;
+        justify-content: flex-end;
+
         
         
     }
+    .boton_movil img {
+        width: 30%;
+        display: flex;
+        filter:invert(1);
+           
+    
+    }
 main {
-  flex-direction:column-reverse ;
-   justify-content: center;
-   width: 360px;
+   flex-direction:column-reverse ;
+   align-items: flex-end;
+   
+   
 
 }
 h1{
@@ -212,16 +223,30 @@ p{
 }
 .box{
     width: 100%;
-    padding:10%;
+    align-items: center;
 }
 main img {
-    width: 60%;
-    align-items:stretch;
-    margin:0%;
+    width: 100%;
+    margin:5%;
     padding:0%;
-    width: 60%;
-    object-fit: cover;
-    justify-content: flex-start;
-    
+}
+
+.botonhit{
+    display: inline-block;
+    position: relative;
+
+
+
+}
+.botonhit p{
+    position: absolute;
+    top:35%;
+    left:40%;
+    font-size:15px;
+    font-weight: 600;
+    color:grey
+   
 }
 }
+
+
