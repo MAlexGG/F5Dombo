@@ -125,14 +125,14 @@ main div img {
 }
 
 .button-pad-g {
-    background-color:pink;
+    background-color:transparent;
     width: 150px;
     height: 150px;
     border-radius: 150px;
 }
 
 .button-pad-p {
-    background-color:pink;
+    background-color:transparent;
     width: 100px;
     height: 100px;
     border-radius: 100px;
@@ -140,37 +140,54 @@ main div img {
 
 #tom {
     position: relative;
+    top: 28%; 
+    left: 2%;
    
 }
 
 #kick{
     position: relative;
-    
+    top: 95%;
+    right: 16%;
 }
 
 #ride {
     position: relative;
+    top: 59%;
+    right: 4.5%;
 
 }
 #hat {
     position: relative;
+    top: 47%;
+    right: 7.5%;
    
 }
 #cowbell{
     position: relative;
+    top: 59%;
+    left: 40%;
 }
 
 #rimshot{
     position: relative;
+    top: 55%;
+    left: 13.5%;
 }
 
 #snare{
     position: relative;
+    top: 6%;
+    left: 4.5%;
 }
 
 #weird{
     position: relative;
+    top: 28%;
+    left: 34%;
 }
+
+
 
 .click {
     display: none;
