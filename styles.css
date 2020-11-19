@@ -112,8 +112,16 @@ main div img {
     position: relative;
 }
 
-.posicionbotones{
-    background-color: purple;
+.posicionesbotones {
+    
+}
+
+.botonesSonidos{
+    position: absolute;
+    top:20%;
+    height: 50%;
+    margin-top: 0%;
+    padding-top: 0%;
 }
 
 .button-pad-g {
@@ -132,36 +140,34 @@ main div img {
 
 #tom {
     position: relative;
-    top: 20vh;
-    left: 40vh;
+   
 }
 
 #kick{
     position: relative;
-    top:24vh;
-    left:39vh;   
+    
 }
 
-#ride{
+#ride {
     position: relative;
 
 }
-#charles{
+#hat {
     position: relative;
-    top:24vh;
-    left:83vh;
+   
 }
 #cowbell{
     position: relative;
-    top:20vh;
-    left:60vh;
 }
+
 #rimshot{
     position: relative;
 }
+
 #snare{
     position: relative;
 }
+
 #weird{
     position: relative;
 }
