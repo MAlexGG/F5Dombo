@@ -124,16 +124,16 @@ main div {
 
 .button-pad-g {
     background-color:pink;
-    width: 200px;
-    height: 200px;
-    border-radius: 200px;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
 }
 
 .button-pad-p {
     background-color:red;
-    width: 150px;
-    height: 150px;
-    border-radius: 150px;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
 }
 
 #tom {
@@ -291,9 +291,9 @@ footer button {
         align-items: center;
     }
 
-    main img {
+    .drummkit {
         width: 100%;
-        margin:5%;
+    
         padding:0%;
     }
 
@@ -310,6 +310,14 @@ footer button {
         font-weight: 600;
         color:grey
     }
+    .posicionbotones {
+        background-color: royalblue;
+        position: relative;
+        width: 100%;
+        height: auto;
+        
+    }
+    
 
 }
 
