@@ -105,89 +105,85 @@ main div {
     padding-top: 4%;
 }
 
-main div img {
+.posicionbotones {
+    background-color: royalblue;
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0%;
+    margin-left: 10%;
+    
+}
+
+.drummkit {
     padding: 0px;
-    width: 90%;
+    width: 100%;
     height: auto;
     position: relative;
 }
 
-.posicionesbotones {
-    
-}
-
-.botonesSonidos{
-    position: absolute;
-    top:20%;
-    height: 50%;
-    margin-top: 0%;
-    padding-top: 0%;
-}
-
 .button-pad-g {
-    background-color:transparent;
+    background-color:pink;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+.button-pad-p {
+    background-color:red;
     width: 150px;
     height: 150px;
     border-radius: 150px;
 }
 
-.button-pad-p {
-    background-color:transparent;
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-}
-
 #tom {
-    position: relative;
+    position: absolute;
     top: 28%; 
-    left: 2%;
+    left: 9%;
    
 }
 
 #kick{
-    position: relative;
-    top: 95%;
-    right: 16%;
+    position: absolute;
+    top: 52%;
+    right: 15%;
 }
 
 #ride {
-    position: relative;
-    top: 59%;
-    right: 4.5%;
+    position: absolute;
+    top: 28%;
+    right: 10%;
 
 }
 #hat {
-    position: relative;
-    top: 47%;
-    right: 7.5%;
+    position: absolute;
+    top: 15%;
+    right: 28%;
    
 }
 #cowbell{
-    position: relative;
-    top: 59%;
-    left: 40%;
+    position: absolute;
+    top: 5%;
+    left: 82%;
 }
 
 #rimshot{
-    position: relative;
-    top: 55%;
-    left: 13.5%;
+    position: absolute;
+    top: 52%;
+    left: 15%;
 }
 
 #snare{
-    position: relative;
-    top: 6%;
-    left: 4.5%;
+    position: absolute;
+    top: 15%;
+    left: 27%;
 }
 
 #weird{
-    position: relative;
-    top: 28%;
-    left: 34%;
+    position: absolute;
+    top: 6%;
+    left: 2%;
 }
-
-
 
 .click {
     display: none;
@@ -314,6 +310,8 @@ footer button {
         font-weight: 600;
         color:grey
     }
+
 }
+
 
 
