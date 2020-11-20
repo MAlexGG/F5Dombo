@@ -78,6 +78,8 @@ h1 {
     letter-spacing: 0.1px;
 }
 
+
+
 p {
     color: #554e6f;
     font-family:'Poppins', sans-serif;
@@ -106,7 +108,7 @@ main div {
 }
 
 .posicionbotones {
-    background-color: royalblue;
+    background-color: transparent;
     position: relative;
     width: 100%;
     height: auto;
@@ -230,6 +232,21 @@ footer button {
     font-size: 15px; 
 }
 
+/* Transformaciones desde JS */
+
+.efectoVibrar{
+    background: transparent;
+    transform: scale(0);
+    animation-name: vibrar;
+    animation-duration: 2s;
+}
+
+@keyframes vibrar {
+    from { background: transparent; transform: scale(0);}
+    to {background: rgba(0, 0, 0, 0.1); transform: scale(2);}
+}
+
+
 @media only screen and (max-width: 570px) {
     
     .nav_escritorio {
@@ -311,7 +328,7 @@ footer button {
         color:grey
     }
     .posicionbotones {
-        background-color: royalblue;
+        background-color: transparent;
         position: relative;
         width: 100%;
         height: auto;
